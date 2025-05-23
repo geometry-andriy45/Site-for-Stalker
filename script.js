@@ -1,4 +1,4 @@
-// GSAP Анімація для мутантів
+
 gsap.to("#bloodsucker-img", {
   opacity: 1,
   duration: 2,
@@ -21,7 +21,7 @@ gsap.to("#controller-img", {
   ease: "power1.inOut"
 });
 
-// Particles.js для ефекту аномалії
+
 particlesJS("particles-js", {
   particles: {
     number: { value: 80, density: { enable: true, value_area: 800 } },
