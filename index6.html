@@ -1,141 +1,189 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>S.T.A.L.K.E.R. Zone Shop</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- Фон із частинками -->
-  <div id="particles-js"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>S.T.A.L.K.E.R. Zone Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Фон із частинками -->
+    <div id="particles-js"></div>
 
-  <!-- Хедер -->
-  <header>
-    <h1>S.T.A.L.K.E.R. Zone Shop</h1>
-    <input type="text" placeholder="Шукати в Зоні...">
-  </header>
+    <!-- Хедер -->
+    <header>
+      <h1>S.T.A.L.K.E.R. Zone Shop</h1>
+      <input type="text" placeholder="Шукати в Зоні..." />
+    </header>
 
-  <!-- Основний контент -->
-  <main>
-    <!-- Мутанти -->
-    <section id="mutants">
-      <h2>Мутанти</h2>
-      <div class="products-container">
-        <!-- Кровосос -->
-        <div class="product-card">
-          <div class="monster-img bloodsucker" id="bloodsucker-img">
-            <img src="https://cm.author.today/content/2022/11/04/5c47a36538724ec2b72c053b1b1afb20.jpg">
-          </div>
-          <h3>Кровосос</h3>
-          <div class="description">
-            Гуманоїдний мутант із щупальцями замість рота. Використовує невидимість для нападу. Зустрічається в болотах і тунелях. Тактика: стріляйте в голову або використовуйте вогнемет. Легенди Зони розповідають, що Кровососи — це сталкери, які зазнали мутацій через аномалії.
-          </div>
-          <div class="price">5000 Грн <span class="original-price">7000 Грн</span></div>
-          <button class="buy-button">Купити</button>
-        </div>
-
-        <!-- Снорк -->
-        <div class="product-card">
-          <div class="monster-img snork" id="snork-img"></div>
-          <h3>Снорк</h3>
-          <div class="description">
-            Агресивний мутант із чотириногим пересуванням і стрибками. Носить залишки протигазу, що вказує на його людське походження. Зустрічається в руїнах і лісах. Тактика: тримайте дистанцію, використовуйте дробовик. Снорки полюють зграями, що робить їх особливо небезпечними.
-          </div>
-          <div class="price">3000 Грн <span class="original-price">4500 Грн</span></div>
-          <button class="buy-button">Купити</button>
-        </div>
-        <!-- Контролер -->
-        <div class="product-card">
-          <div class="monster-img controller" id="controller-img"></div>
-          <h3>Контролер</h3>
-          <div class="description">
-            Псіонічний мутант, здатний контролювати розум сталкерів. Зустрічається в підземеллях і покинутих будівлях. Викликає галюцинації та паніку. Тактика: використовуйте укриття та стріляйте з дальньої дистанції. Контролери — одні з найрідкісніших і найнебезпечніших істот Зони.
-          </div>
-          <div class="price">8000 Грн <span class="original-price">10000 Грн</span></div>
-          <button class="buy-button">Купити</button>
-        </div>
-
-        <div class="product-card">
-          <div class="monster-img controller" id="controller-img">
-            <img src="https://cm.author.today/content/2022/11/04/5c47a36538724ec2b72c053b1b1afb20.jpg" alt="">
-          </div>
-          <h3>Контролер</h3>
-          <div class="description">
-            Псіонічний мутант, здатний контролювати розум сталкерів. Зустрічається в підземеллях і покинутих будівлях. Викликає галюцинації та паніку. Тактика: використовуйте укриття та стріляйте з дальньої дистанції. Контролери — одні з найрідкісніших і найнебезпечніших істот Зони.
-          </div>
-          <div class="price">8000 Грн <span class="original-price">10000 Грн</span></div>
-          <button class="buy-button">Купити</button>
-        </div>
-      </div>
-
-      
-    </section>
-<!-- Артефакти -->
-    <section id="artifacts">
-      <h2>Артефакти</h2>
-      <div class="products-container">
-        <!-- Медуза -->
-        <div class="product-card">
-          <div class="artifact medusa">
-            <div class="tooltip">
-              <strong>Медуза</strong><br>
-              Ефект: +10% до захисту від радіації<br>
-              Недолік: -5% витривалості<br>
-              Ціна: 1000 RU<br>
-              Місця появи: Гравітаційні аномалії
+    <!-- Основний контент -->
+    <main>
+      <!-- Мутанти -->
+      <section id="mutants">
+        <h2>Мутанти</h2>
+        <div class="products-container">
+          <!-- Кровосос -->
+          <div class="product-card">
+            <div class="monster-img bloodsucker" id="bloodsucker-img">
+              <img
+                src="https://arma-models.ru/upload/iblock/c56/i9oree1wimoznngp1eckm5vw233cqtrv.jpg"
+              />
             </div>
-          </div>
-          <h3>Медуза</h3>
-          <div class="description">
-            Поширений артефакт із гравітаційних аномалій. Забезпечує захист від радіації, але знижує витривалість.
-          </div>
-          <div class="price">1000 RU <span class="original-price">1500 RU</span></div>
-          <button class="buy-button">Купити</button>
-        </div>
-        <!-- Кров Каменя -->
-        <div class="product-card">
-          <div class="artifact bloodstone">
-            <div class="tooltip">
-              <strong>Кров Каменя</strong><br>
-              Ефект: +15% до регенерації здоров’я<br>
-              Недолік: +5% радіації<br>
-              Ціна: 1500 RU<br>
-              Місця появи: Хімічні аномалії
+            <h3>Кровосос</h3>
+            <div class="description">
+              Гуманоїдний мутант із щупальцями замість рота.
+              Використовує невидимість для нападу. Зустрічається в
+              болотах і тунелях. Тактика: стріляйте в голову або
+              використовуйте вогнемет. Легенди Зони розповідають, що
+              Кровососи — це сталкери, які зазнали мутацій через
+              аномалії.
             </div>
-          </div>
-          <h3>Кров Каменя</h3>
-          <div class="description">
-            Артефакт, що прискорює загоєння ран, але підвищує радіаційний фон. Зустрічається в хімічних аномаліях.
-          </div>
-          <div class="price">1500 RU <span class="original-price">2000 RU</span></div>
-          <button class="buy-button">Купити</button>
-        </div>
-        <!-- Вогняна куля -->
-        <div class="product-card">
-          <div class="artifact fireball">
-            <div class="tooltip">
-              <strong>Вогняна куля</strong><br>
-              Ефект: +20% до захисту від вогню<br>
-              Недолік: -10% швидкості<br>
-              Ціна: 2000 RU<br>
-              Місця появи: Термальні аномалії
+            <div class="price">
+              5000 Грн <span class="original-price">7000 Грн</span>
             </div>
+            <button class="buy-button">Купити</button>
           </div>
-          <h3>Вогняна куля</h3>
-          <div class="description">
-            Рідкісний артефакт, що захищає від вогню, але уповільнює рух. Зустрічається в термальних аномаліях.
+          <!-- Снорк -->
+          <div class="product-card">
+            <div class="monster-img snork" id="snork-img">
+              <img
+                src="https://cm.author.today/content/2022/11/04/5c47a36538724ec2b72c053b1b1afb20.jpg"
+              />
+            </div>
+            <h3>Снорк</h3>
+            <div class="description">
+              Агресивний мутант із чотириногим пересуванням і
+              стрибками. Носить залишки протигазу, що вказує на його
+              людське походження. Зустрічається в руїнах і лісах.
+              Тактика: тримайте дистанцію, використовуйте дробовик.
+              Снорки полюють зграями, що робить їх особливо
+              небезпечними.
+            </div>
+            <div class="price">
+              3000 Грн <span class="original-price">4500 Грн</span>
+            </div>
+            <button class="buy-button">Купити</button>
           </div>
-          <div class="price">2000 RU <span class="original-price">3000 RU</span></div>
-          <button class="buy-button">Купити</button>
-        </div>
-      </div>
-    </section>
-  </main>
+          <!-- Контролер -->
+          <div class="product-card">
+            <div class="monster-img controller" id="controller-img">
+              <img
+                src="https://stalker-news.info/wp-content/uploads/2023/12/kontroler-min.png"
+              />
+            </div>
+            <h3>Контролер</h3>
+            <div class="description">
+              Псіонічний мутант, здатний контролювати розум сталкерів.
+              Зустрічається в підземеллях і покинутих будівлях.
+              Викликає галюцинації та паніку. Тактика: використовуйте
+              укриття та стріляйте з дальньої дистанції. Контролери —
+              одні з найрідкісніших і найнебезпечніших істот Зони.
+            </div>
+            <div class="price">
+              8000 Грн <span class="original-price">10000 Грн</span>
+            </div>
+            <button class="buy-button">Купити</button>
+          </div>
 
-  <!-- Скрипти -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="script.js"></script>
-</body>
+          <div class="product-card">
+            <div class="monster-img controller" id="controller-img">
+              <img
+                src="https://cm.author.today/content/2022/11/04/5c47a36538724ec2b72c053b1b1afb20.jpg"
+                alt=""
+              />
+            </div>
+            <h3>Контролер</h3>
+            <div class="description">
+              Псіонічний мутант, здатний контролювати розум сталкерів.
+              Зустрічається в підземеллях і покинутих будівлях.
+              Викликає галюцинації та паніку. Тактика: використовуйте
+              укриття та стріляйте з дальньої дистанції. Контролери —
+              одні з найрідкісніших і найнебезпечніших істот Зони.
+            </div>
+            <div class="price">
+              8000 Грн <span class="original-price">10000 Грн</span>
+            </div>
+            <button class="buy-button">Купити</button>
+          </div>
+        </div>
+      </section>
+      <!-- Артефакти -->
+      <section id="artifacts">
+        <h2>Артефакти</h2>
+        <div class="products-container">
+          <!-- Медуза -->
+          <div class="product-card">
+            <div class="artifact medusa">
+              <div class="tooltip">
+                <strong>Медуза</strong><br />
+                Ефект: +10% до захисту від радіації<br />
+                Недолік: -5% витривалості<br />
+                Ціна: 1000 RU<br />
+                Місця появи: Гравітаційні аномалії
+              </div>
+            </div>
+            <h3>Медуза</h3>
+            <div class="description">
+              Поширений артефакт із гравітаційних аномалій. Забезпечує
+              захист від радіації, але знижує витривалість.
+            </div>
+            <div class="price">
+              1000 RU <span class="original-price">1500 RU</span>
+            </div>
+            <button class="buy-button">Купити</button>
+          </div>
+          <!-- Кров Каменя -->
+          <div class="product-card">
+            <div class="artifact bloodstone">
+              <div class="tooltip">
+                <strong>Кров Каменя</strong><br />
+                Ефект: +15% до регенерації здоров’я<br />
+                Недолік: +5% радіації<br />
+                Ціна: 1500 RU<br />
+                Місця появи: Хімічні аномалії
+              </div>
+            </div>
+            <h3>Кров Каменя</h3>
+            <div class="description">
+              Артефакт, що прискорює загоєння ран, але підвищує
+              радіаційний фон. Зустрічається в хімічних аномаліях.
+            </div>
+            <div class="price">
+              1500 RU <span class="original-price">2000 RU</span>
+            </div>
+            <button class="buy-button">Купити</button>
+          </div>
+          <!-- Вогняна куля -->
+          <div class="product-card">
+            <div class="artifact fireball">
+              <div class="tooltip">
+                <strong>Вогняна куля</strong><br />
+                Ефект: +20% до захисту від вогню<br />
+                Недолік: -10% швидкості<br />
+                Ціна: 2000 RU<br />
+                Місця появи: Термальні аномалії
+              </div>
+            </div>
+            <h3>Вогняна куля</h3>
+            <div class="description">
+              Рідкісний артефакт, що захищає від вогню, але уповільнює
+              рух. Зустрічається в термальних аномаліях.
+            </div>
+            <div class="price">
+              2000 RU <span class="original-price">3000 RU</span>
+            </div>
+            <button class="buy-button">Купити</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Скрипти -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
