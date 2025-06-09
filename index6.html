@@ -4,12 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>S.T.A.L.K.E.R. Zone Shop</title>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKnxhVEPoojm99IkTDRWWcOVwrYMxYlv7sKw&s">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Фон із частинками -->
   <div id="particles-js"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>S.T.A.L.K.E.R. Zone Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Фон із частинками -->
+    <div  id="particles-js"></div>
 
   <!-- Хедер -->
   <header>
@@ -25,7 +36,10 @@
       <div class="products-container">
         <!-- Кровосос -->
         <div class="product-card">
-          <div class="monster-img bloodsucker" id="bloodsucker-img"></div>
+        
+          <div class="monster-img bloodsucker" id="bloodsucker-img">
+            <img src="https://arma-models.ru/upload/iblock/c56/i9oree1wimoznngp1eckm5vw233cqtrv.jpg">
+          </div>
           <h3>Кровосос</h3>
           <div class="description">
             Гуманоїдний мутант із щупальцями замість рота. Використовує невидимість для нападу. Зустрічається в болотах і тунелях. Тактика: стріляйте в голову або використовуйте вогнемет. Легенди Зони розповідають, що Кровососи — це сталкери, які зазнали мутацій через аномалії.
@@ -33,10 +47,12 @@
           <div class="price">5000 Грн <span class="original-price">7000 Грн</span></div>
           <button class="buy-button">Купити</button>
         </div>
-        <img src="https://arma-models.ru/upload/iblock/c56/i9oree1wimoznngp1eckm5vw233cqtrv.jpg">
         <!-- Снорк -->
         <div class="product-card">
-          <div class="monster-img snork" id="snork-img"></div>
+        
+          <div class="monster-img snork" id="snork-img">
+            <img src="https://cm.author.today/content/2022/11/04/5c47a36538724ec2b72c053b1b1afb20.jpg">
+          </div>
           <h3>Снорк</h3>
           <div class="description">
             Агресивний мутант із чотириногим пересуванням і стрибками. Носить залишки протигазу, що вказує на його людське походження. Зустрічається в руїнах і лісах. Тактика: тримайте дистанцію, використовуйте дробовик. Снорки полюють зграями, що робить їх особливо небезпечними.
@@ -44,10 +60,23 @@
           <div class="price">3000 Грн <span class="original-price">4500 Грн</span></div>
           <button class="buy-button">Купити</button>
         </div>
-        <img src="https://cm.author.today/content/2022/11/04/5c47a36538724ec2b72c053b1b1afb20.jpg">
         <!-- Контролер -->
         <div class="product-card">
-          <div class="monster-img controller" id="controller-img"></div>
+          <div class="monster-img controller" id="controller-img">
+            <img src="https://escorenews.com/media/news/n64067.jpeg" alt="">
+          </div>
+          <h3>Контролер</h3>
+          <div class="description">
+            Псіонічний мутант, здатний контролювати розум сталкерів. Зустрічається в підземеллях і покинутих будівлях. Викликає галюцинації та паніку. Тактика: використовуйте укриття та стріляйте з дальньої дистанції. Контролери — одні з найрідкісніших і найнебезпечніших істот Зони.
+          </div>
+          <div class="price">8000 Грн <span class="original-price">10000 Грн</span></div>
+          <button class="buy-button">Купити</button>
+        </div>
+
+        <div class="product-card">
+          <div class="monster-img controller" id="controller-img">
+            <img src="https://escorenews.com/media/news/n64067.jpeg" alt="">
+          </div>
           <h3>Контролер</h3>
           <div class="description">
             Псіонічний мутант, здатний контролювати розум сталкерів. Зустрічається в підземеллях і покинутих будівлях. Викликає галюцинації та паніку. Тактика: використовуйте укриття та стріляйте з дальньої дистанції. Контролери — одні з найрідкісніших і найнебезпечніших істот Зони.
@@ -57,7 +86,6 @@
         </div>
       </div>
     </section>
-    <img src="https://stalker-news.info/wp-content/uploads/2023/12/kontroler-min.png">
 <!-- Артефакти -->
     <section id="artifacts">
       <h2>Артефакти</h2>
@@ -99,6 +127,24 @@
           <button class="buy-button">Купити</button>
         </div>
         <!-- Вогняна куля -->
+        <div class="product-card">
+          <div class="artifact fireball">
+            <div class="tooltip">
+              <strong>Вогняна куля</strong><br>
+              Ефект: +20% до захисту від вогню<br>
+              Недолік: -10% швидкості<br>
+              Ціна: 2000 RU<br>
+              Місця появи: Термальні аномалії
+            </div>
+          </div>
+          <h3>Вогняна куля</h3>
+          <div class="description">
+            Рідкісний артефакт, що захищає від вогню, але уповільнює рух. Зустрічається в термальних аномаліях.
+          </div>
+          <div class="price">2000 RU <span class="original-price">3000 RU</span></div>
+          <button class="buy-button">Купити</button>
+        </div>
+
         <div class="product-card">
           <div class="artifact fireball">
             <div class="tooltip">
