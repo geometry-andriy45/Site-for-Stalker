@@ -328,15 +328,19 @@ h2 {
 }
 
 .artifact.medusa {
-  background-image: url('');
+  background-image: url('https://pm1.aminoapps.com/6915/3c045a99f6ec650c5a1c538fb7bb4b33ed811f71r1-150-150v2_00.jpg');
 }
 
 .artifact.bloodstone {
-  background-image: url('');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2EoqYIdgilUPyhp-qHel6mfIZDHWYS_WeXQ&s');
 }
 
 .artifact.fireball {
-  background-image: url('');
+  background-image: url('https://pm1.aminoapps.com/6917/49011c4ae562a8e88814b4a72effc58acc0bce6er1-480-360v2_00.jpg');
+}
+
+.artifact.compass {
+  background-image: url('https://sun1-24.userapi.com/impg/yAN_QQAAT6KGDkO9foAEZPCryNM0Oeos5Dp0Tw/kGdM5wmHGug.jpg?size=520x0&quality=95&sign=df24a90e75df2c195d38f53fc7f20030');
 }
 
 @keyframes glow {
