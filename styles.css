@@ -88,10 +88,13 @@ h2 {
   background-image: url('');
 }
 
+.monster-img.pseudodog {
+  background-image: url('images/pseudodog.png');
+}
+
 .monster-img.controller {
   background-image: url('');
 }
-
 
 .artifact {
   position: relative;
@@ -306,6 +309,9 @@ h2 {
   background-image: url('');
 }
 
+.monster-img.Buhrer {
+  background-image: url('');
+}
 .monster-img.controller {
   background-image: url('');
 }
@@ -427,4 +433,16 @@ h2 {
     width: 150px;
     font-size: 0.9em;
   }
+}
+
+.a{
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+.b {
+  margin-top: 70px;
+}
+.c{
+  margin-bottom: 20px;
 }
