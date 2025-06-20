@@ -213,6 +213,7 @@ h2 {
     font-size: 0.9em;
   }
 }
+
 img {
   width: 250px;
   height: 250px;
@@ -296,7 +297,7 @@ h2 {
   width: 100%;
   height: 200px;
   background: center/cover no-repeat;
-  opacity: 0; 
+  opacity: 1; 
   border-radius: 10px;
 }
 
@@ -437,6 +438,7 @@ h2 {
     font-size: 0.9em;
   }
 }
+
 .a{
   width: 150px;
   height: 150px;
@@ -451,4 +453,20 @@ h2 {
 img {
   width: 150px;
   height: 150px;
+}
+.a1 {
+  background-color:orange;
+  width: 90px;
+  height: 30px;
+  float: left;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.a1:hover {
+  transform: scale(1.05);
+}
+a {
+  text-decoration: none;
+  color: #00ff00;
 }
